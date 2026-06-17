@@ -1,0 +1,19 @@
+Frontend:
+Frontend is the part of a website that users can see and interact with.
+
+Backend:
+Backend handles business logic and processes requests.
+
+API:
+API is a bridge between frontend and backend.
+
+Database:
+Database stores application data.
+
+How a Website Works:
+1. Browser sends a request.
+2. Server receives request.
+3. Server processes request.
+4. Database is accessed if needed.
+5. Response is sent back.
+6. Browser displays the webpage.
