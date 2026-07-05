@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Expense Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>💰 Expense Tracker</h1>
+
+    <input
+        type="text"
+        id="title"
+        placeholder="Expense Title">
+
+    <input
+        type="number"
+        id="amount"
+        placeholder="Amount">
+
+    <button onclick="addExpense()">
+
+        Add Expense
+
+    </button>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Title</th>
+
+                <th>Amount</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="expenseTable">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
