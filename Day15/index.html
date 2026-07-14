@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Expense Tracker Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>💰 Expense Tracker Pro</h1>
+
+<input
+type="text"
+id="search"
+placeholder="Search Expense..."
+onkeyup="searchExpense()">
+
+<input
+type="text"
+id="title"
+placeholder="Expense Title">
+
+<input
+type="number"
+id="amount"
+placeholder="Amount">
+
+<button onclick="addExpense()">
+
+Add Expense
+
+</button>
+
+<button class="clearBtn" onclick="clearAll()">
+
+Clear All
+
+</button>
+
+<h2 id="total">
+
+Total : ₹0
+
+</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Title</th>
+
+<th>Amount</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody id="expenseTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
