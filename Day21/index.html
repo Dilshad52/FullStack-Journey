@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Student Management System Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎓 Student Management System Pro</h1>
+
+<input
+type="text"
+id="search"
+placeholder="Search Student..."
+onkeyup="searchStudent()">
+
+<input
+type="text"
+id="name"
+placeholder="Student Name">
+
+<input
+type="number"
+id="age"
+placeholder="Age">
+
+<input
+type="text"
+id="course"
+placeholder="Course">
+
+<button onclick="addStudent()">
+
+Add Student
+
+</button>
+
+<button onclick="exportCSV()">
+
+Export CSV
+
+</button>
+
+<h3 id="count">
+
+Total Students : 0
+
+</h3>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Age</th>
+
+<th>Course</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody id="studentTable">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
