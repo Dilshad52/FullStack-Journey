@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="hero">
+
+    <p class="tag">PERSONAL CAREER MANAGEMENT PLATFORM</p>
+
+    <h1>
+        Welcome to Your
+        <span>AI Career Operating System</span>
+    </h1>
+
+    <p class="description">
+
+        Manage your career profile, skills, resume,
+        job applications and career progress from one place.
+
+    </p>
+
+    <a class="button" href="{{ url_for('profile') }}">
+
+        Build My Career Profile
+
+    </a>
+
+</section>
+
+
+<section class="features">
+
+    <div class="card">
+
+        <h2>👤 Profile</h2>
+
+        <p>
+            Manage your education, experience and career goals.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>📄 Resume</h2>
+
+        <p>
+            Store and manage your professional resume.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>💻 Skills</h2>
+
+        <p>
+            Track your technical and professional skills.
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>💼 Jobs</h2>
+
+        <p>
+            Track applications, interviews and job status.
+        </p>
+
+    </div>
+
+</section>
+
+{% endblock %}
